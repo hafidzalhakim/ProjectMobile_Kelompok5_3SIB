@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OnBoarding</string>
+    <string name="skip">Skip</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+
+    //Headings
+    <string name="heading_one">🚿 Selamat Datang!</string>
+    <string name="heading_two">📱 Panduan Langkah demi Langkah:</string>
+    <string name="heading_three">🌐 Fitur Utama:</string>
+    <string name="heading_fourth">🔔 Notifikasi Langsung:</string>
+
+    //Description
+    <string name="desc_one">Terima kasih telah memilih Aplikasi PDAM sebagai mitra Anda dalam mengelola kebutuhan air bersih. Halaman ini adalah langkah awal untuk memahami bagaimana aplikasi kami dapat memberikan kemudahan maksimal dalam pengelolaan tagihan dan konsumsi air Anda</string>
+    <string name="desc_two">Temui panduan interaktif yang akan membimbing Anda melalui setiap langkah pendaftaran. Mulai dari membuat akun hingga menjelajahi fitur-fitur unggulan, kami memastikan Anda merasa nyaman dan percaya diri dalam menggunakan aplikasi kami</string>
+    <string name="desc_three">Kenali fitur-fitur penting yang membuat Aplikasi PDAM menjadi pilihan utama untuk mengelola air bersih. Dari pemantauan konsumsi hingga pembayaran tagihan, kami hadir untuk memudahkan hidup Anda</string>
+    <string name="desc_fourth">Dapatkan informasi terkini seputar tagihan, pemadaman, dan pembaruan penting lainnya melalui notifikasi langsung ke perangkat Anda. Kami memahami bahwa informasi tepat waktu sangat penting, dan kami siap memberikannya kepada Anda</string>
+
+</resources>
