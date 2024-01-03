@@ -6,23 +6,22 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.loginregister.LoginActivity
 
-class OnboardingActivity1 : AppCompatActivity() {
-
+class OnboardingActivity4 : AppCompatActivity(){
     var btnNext: Button? = null
     var btnSkip: Button? = null
     var btnBack: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_onboarding1)
+        setContentView(R.layout.activity_onboarding4)
 
-        btnNext = findViewById(R.id.nextBtn1)
-        btnSkip = findViewById(R.id.skipButton1)
-        btnBack = findViewById(R.id.backBtn1)
+        btnNext = findViewById(R.id.nextBtn4)
+        btnSkip = findViewById(R.id.skipButton4)
+        btnBack = findViewById(R.id.backBtn4)
 
 
         btnNext?.setOnClickListener {
-            startActivity(Intent(applicationContext, OnboardingActivity2 ::class.java))
+            startActivity(Intent(applicationContext, LoginActivity::class.java))
         }
 
         btnSkip?.setOnClickListener {
@@ -30,9 +29,8 @@ class OnboardingActivity1 : AppCompatActivity() {
         }
 
         btnBack?.setOnClickListener {
-            startActivity(Intent(applicationContext, OnboardingActivity1 :: class.java))
+            startActivity(Intent(applicationContext, OnboardingActivity3 :: class.java))
         }
 
     }
-
 }
