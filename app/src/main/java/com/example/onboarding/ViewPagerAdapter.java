@@ -55,7 +55,7 @@ public class ViewPagerAdapter extends PagerAdapter {
     public Object instantiateItem(@NonNull ViewGroup container, int postion){
 
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.slider_layout, container, false);
+        View view = layoutInflater.inflate(R.layout.activity_onboarding1, container, false);
 
         ImageView slidetitleimage = (ImageView) view.findViewById(R.id.titleImage);
         TextView slideHeading = (TextView) view.findViewById(R.id.textTitle);
@@ -68,5 +68,11 @@ public class ViewPagerAdapter extends PagerAdapter {
         container.addView(view);
 
         return view;
+    }
+
+    @Override
+    public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
+
+        container.removeView((LinearLayout)object);
     }
 }

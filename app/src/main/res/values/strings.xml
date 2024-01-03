@@ -3,6 +3,7 @@
     <string name="skip">Skip</string>
     <string name="back">Back</string>
     <string name="next">Next</string>
+    <string name="clearwell">ClearWell</string>
 
     //Headings
     <string name="heading_one">🚿 Selamat Datang!</string>
